@@ -11,12 +11,12 @@ Pour le compte d'un réseau d'agences immoblière, création d'un modèle permet
 A partir des données extraites du site open data des [Demandes de valeurs foncières (DVF)](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
 
 
-#### - Préparer le dictionnaire des données
+#### - Préparation du dictionnaire des données
 
 ![p2_dictionnaire](https://user-images.githubusercontent.com/87067133/217299142-3e745df6-d267-47fb-8cb6-091de83f213d.png)
 
 
-####  - Préparer le modèle conceptuel des données
+####  - Préparation du modèle conceptuel des données
 
 Les données peuvent être divisées en 3 tables : 
 Celle relative au bien immobilier
@@ -28,7 +28,7 @@ On utilise Gitmind pour préparer le modèle conceptuel de données, les trois e
 ![p2_modele_conceptuel](https://user-images.githubusercontent.com/87067133/217298814-28f24746-a0ac-4677-8aa2-5d3161771719.png)
 
   
-####  - Préparer le schéma relationnel normalisé en 3NF de la base de données qui donnera lieu à la création des tables
+####  - Préparation du schéma relationnel normalisé en 3NF de la base de données qui donnera lieu à la création des tables
 
 Il faut définir les clés primaires et étrangères
 Pour la table bien immobilier, on choisit un identifiant unique auto-incrémenté
@@ -42,7 +42,7 @@ On utilise SQL Power Architect pour dessiner le schéma relationnel
   ![p2_schema_relationnel](https://user-images.githubusercontent.com/87067133/217298871-dd31c8d8-13f7-43c3-a5c6-2a97ee4b26c3.png)
   
 
-####  - Implémenter la base de données (sur PostgreSQL)
+####  - Implémentation de la base de données (sur PostgreSQL)
 
 SQL Power Architect > export du code SQL du schéma relationnel > PGAdmin > Postgres SQL > import des tables en csv 
 
