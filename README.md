@@ -13,12 +13,12 @@ A partir des données extraites du site open data des Demandes de valeurs fonci�
 source données : https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
 
 
-###### - Préparer le dictionnaire des données
+#### - Préparer le dictionnaire des données
 
 ![p2_dictionnaire](https://user-images.githubusercontent.com/87067133/217299142-3e745df6-d267-47fb-8cb6-091de83f213d.png)
 
 
-######  - Préparer le modèle conceptuel des données
+#####  - Préparer le modèle conceptuel des données
 
 Les données peuvent être divisées en 3 tables : 
 Celle relative au bien immobilier
