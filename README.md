@@ -8,9 +8,7 @@ Pour le compte d'un réseau d'agences immoblière, création d'un modèle permet
 
 ### 1. Création de la base de données permettant de collecter les transactions immobilières et foncières en France.
 
-A partir des données extraites du site open data des Demandes de valeurs foncières (DVF)
-
-source données : https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+A partir des données extraites du site open data des [Demandes de valeurs foncières (DVF)](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
 
 
 #### - Préparer le dictionnaire des données
