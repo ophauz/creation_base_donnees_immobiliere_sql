@@ -105,7 +105,7 @@ SQL Power Architect > export du code SQL du schéma relationnel > PGAdmin > Post
 ![p2_req_7 3](https://user-images.githubusercontent.com/87067133/217306314-b95cdcc6-17c5-48d4-b2c3-41aa64a1fc1f.png)
 
 
-####  - Différence (%) du prix au mètre² entre un appart de 2 pièces et un appart de 3 pièces
+####  - Différence (en %) du prix au mètre² entre les appartements de 2 et 3 pièces
 
 
 ![p2_req_8](https://user-images.githubusercontent.com/87067133/217306541-1a01e435-8dde-4864-86b1-a5590e6d4668.png)
