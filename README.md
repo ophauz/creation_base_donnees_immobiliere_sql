@@ -6,22 +6,27 @@ Pour le compte d'un réseau d'agences immoblière, création d'un modèle permet
 
 ### 1. Création de la base de données permettant de collecter les transactions immobilières et foncières en France.
 
-  - Données extraites du site open data des Demandes de valeurs foncières (DVF). Il faut que tu prépares le dictionnaire des données en respectant le template en PJ pour répertorier et décrire les données importantes à stocker.
+A partir des données extraites du site open data des Demandes de valeurs foncières (DVF)
 
-  - Modèle conceptuel des données ? Ça nous permettra de bien visualiser les différentes entités, associations et cardinalités de la base de données. Pour le formalisme, choisis ce que tu veux entre UML ou MERISE
-  
-    
-  ![Capture d’écran 2023-02-07 à 17 04 13](https://user-images.githubusercontent.com/87067133/217298002-3600eddf-bf68-4b95-8a20-4826384d69e3.png)
-  
-  
-  - Schéma relationnel normalisé en 3NF de la base de données qui donnera lieu à la création des tables.
-  
-  
-  ![Capture d’écran 2023-02-07 à 17 05 30](https://user-images.githubusercontent.com/87067133/217298214-68533896-3732-43cf-a92f-67a2b1cc0206.png)
+source données : https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+
+
+- Préparer le dictionnaire des données en respectant le template en PJ pour répertorier et décrire les données importantes à stocker.
+
+![p2_dictionnaire](https://user-images.githubusercontent.com/87067133/217299142-3e745df6-d267-47fb-8cb6-091de83f213d.png)
+
+
+  - Préparer le modèle conceptuel des données.
+ 
+![p2_modele_conceptuel](https://user-images.githubusercontent.com/87067133/217298814-28f24746-a0ac-4677-8aa2-5d3161771719.png)
 
   
+  - Préparer le schéma relationnel normalisé en 3NF de la base de données qui donnera lieu à la création des tables.
   
-  - implémentation de la BDD
+  ![p2_schema_relationnel](https://user-images.githubusercontent.com/87067133/217298871-dd31c8d8-13f7-43c3-a5c6-2a97ee4b26c3.png)
+  
+
+  - Implémenter la base de données (sur PostgreSQL)
   
 ### 2. Requêtes SQL pour aider les différentes agences à mieux accompagner leurs clients.
 
