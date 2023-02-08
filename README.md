@@ -1,10 +1,8 @@
-# Création d'une base de données immobilières avec SQL
+## Création d'une base de données immobilières avec SQL
 
 
+Pour le compte d'un réseau national d'agences immoblière, création d'un modèle permettant de mieux prévoir le prix de vente des biens immobiliers.
 
-## Business tasks
-
-Pour le compte d'un réseau d'agences immoblière, création d'un modèle permettant de mieux prévoir le prix de vente des biens immobiliers.
 
 ### 1. Création de la base de données permettant de collecter les transactions immobilières et foncières en France.
 
@@ -118,4 +116,4 @@ SQL Power Architect > export du code SQL du schéma relationnel > PGAdmin > Post
 
 
 
-##### Environnement technique : UML, SQL Power Architect, PostgreSQL, SQL
+###### Environnement technique : UML, SQL Power Architect, PostgreSQL, SQL
